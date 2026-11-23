@@ -1,7 +1,13 @@
-# 慧教智研 · AI 自习室 / 互动课堂 / 互动白板 制作（DSH 技能包）
+# 慧教智研 · AI 自习室 / 互动课堂 / 互动白板 制作 (DSH skill bundle)
 
-> AI 老师边画边讲 · AI 同学随时讨论 · 学生边学边做，复习、笔记、讨论、书架全配齐。
+> AI teacher draws while explaining · AI classmate discusses anytime · students learn by doing —
+> review, notes, discussion and a bookshelf included.
 
-安装：`pnpm add hjzy-ai-studyroom-dsh`（或 `dsh plugin --profile web add hjzy-ai-studyroom-dsh`）。
+A DSH bundle + skill package. Once installed, the model follows a proven method to produce a
+**single-file offline HTML lesson** (playable on double-click) plus an editable lesson JSON.
 
-本仓库为 DSH 组合包源码：`package.json`（`dsh.bundle.patch`）、`cordis.patch.yml`、`lib/index.js`（技能提供者）、`assets/`（方法正文、模板、参考）。
+Install: `pnpm add hjzy-ai-studyroom-dsh` (or install `hjzy-ai-studyroom-dsh@1.2.1` from the DSH plugin manager).
+Skill-only install: copy `assets/skill.md` (renamed `SKILL.md`) with `assets/templates` and `assets/references`
+into `<DSH_HOME>/profiles/<profile>/skills/hjzy-ai-studyroom/`.
+
+License: teaching & research use, see `LICENSE`.

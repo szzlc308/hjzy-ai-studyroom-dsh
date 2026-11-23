@@ -1,0 +1,54 @@
+{
+  "name": "hjzy-ai-studyroom-dsh",
+  "description": "慧教智研 · AI 自习室 / 互动课堂 / 互动白板 制作（DSH 技能包：AI 老师边画边讲 · AI 同学随时讨论 · 学生边学边做）",
+  "version": "1.2.1",
+  "icon": "./icon.svg",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huijiao-edu/hjzy-ai-studyroom-dsh.git"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icon.svg",
+    "lib/index.js",
+    "cordis.patch.yml",
+    "assets",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "skill",
+    "teaching",
+    "whiteboard",
+    "study-room",
+    "ai-tutor",
+    "courseware",
+    "慧教智研"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill": "*",
+    "@deepseek-ai/cordis": "*"
+  },
+  "engines": {
+    "dsh": ">=0.2.0 <0.3.0"
+  }
+}

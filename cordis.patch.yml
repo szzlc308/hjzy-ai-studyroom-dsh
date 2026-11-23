@@ -1,0 +1,5 @@
+# 慧教智研 · AI 自习室 技能包：插入一个技能提供者条目。
+# 本包既是组合包（bundle），也是技能提供者（plugin）：patch 把自己的模块名作为行插入。
+- insert:
+    - id: hjzy-ai-studyroom
+      name: 'hjzy-ai-studyroom-dsh'
